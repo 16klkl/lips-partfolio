@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lip's partfolio</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="img/L-logo.png" type="image/png">
+</head>
+<body>
+  <div class="wrapper">
+    <video autoplay muted loop id="bg-video_black">
+      <source src="video/black_bg.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <header>
+      <div class="shapka"><a href="#" onclick="showContent('welcome')">LIP'S PARTFOLIO</a></div>
+      <div class="shapka_menu">
+        <ul>
+          <li><a href="#" onclick="showContent('info')">INFO</a></li>
+          <li><a href="#" onclick="showContent('skills')">SKILLS</a></li>
+          <li><a href="#" onclick="showContent('projects')">PROJECTS</a></li>
+          <li><a href="#" onclick="showContent('goals')">GOALS</a></li>
+          <li><a href="#" onclick="showContent('feedback')">FEEDBACK</a></li>
+          <li><a href="#" onclick="showContent('contacts')">CONTACTS</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!--WELCOME PAGE-->
+    <div id="welcome" class="main-section">
+      <div class="welcome">
+        <h1>WELCOME</h1>
+        <div class="welcometext">
+            Hi, my name is Lip, and I'm 18! I am a self-taught full stack front-end developer and AI developer from Ukraine! You can find more information about me and my projects in this portfolio.
+        </div>
+      </div>
+      <div class="imagelip">
+        <img src="img/lip2.jpg" alt="selfie_lip1"/>
+        <img src="img/lip3.jpg" alt="selfie_lip2"/>
+        <img src="img/lip1.jpg" alt="selfie_lip3"/>
+      </div>
+    </div>
+
+    <!--INFO PAGE-->
+
+    <div id="info" class="main-section" style="display:none;">
+      <h1>Info</h1>
+      <p>Here I want to tell you more about me. My my real name is Hlib, but for every people who speak English, I am Lip for easier communication. I'm 18 years old and I live in Denmark</p>
+    </div>
+
+    <!--SKILLS PAGE-->
+
+    <div id="skills" class="main-section" style="display:none;">
+      <h1>Skills</h1>
+      <p>My skills in developing is creating .</p>
+    </div>
+
+    <!--PROJECTS PAGE-->
+
+    <div id="projects" class="main-section" style="display:none;">
+      <h1>Projects</h1>
+      <p>These are the projects.</p>
+    </div>
+
+     <!--GOALS PAGE-->
+
+    <div id="goals" class="main-section" style="display:none;">
+      <div class="goals-section">
+        <h1>Goals</h1>
+      </div>
+      <p>My goal is to become a skilled Full-Stack Web Developer with a strong foundation in both frontend and backend technologies, and then gradually transition into the field of Machine Learning.</p>
+        To achieve this, I’ve created a clear and structured 6-month roadmap:
+        <p>Months 1–2:
+        I start by learning the fundamentals — HTML, CSS, Git, and GitHub — and create a portfolio site with a contact form. Then I dive into JavaScript basics and DOM manipulation, building an interactive webpage.</p>
+        <p>Months 2–3:
+        I deepen my understanding of JavaScript and learn React, applying it in a To-Do or movie website. Then I work with React Router, Tailwind CSS, and external APIs, creating a React app that fetches data from external services.</p>
+        <p>Months 3–4:
+        I switch focus to backend development — learning Python, FastAPI, and SQL — and build a backend project with a database. I then move on to JWT authentication, SQLAlchemy, and frontend APIs, building a blog or task manager. After that, I integrate Axios, user authentication, and basic Docker, resulting in a full-stack application.</p>
+        <p>Months 4–5:
+        I learn how to deploy frontend and backend apps using Vercel and Render. Then I begin working with Python for data analysis, using pandas and matplotlib to create charts and analyze data.</p>
+        <p>Months 5–6:
+        I dive into Machine Learning, starting with scikit-learn and ML algorithms, and build an ML model for prediction. I then integrate this model into FastAPI to create an ML-powered API, and finally combine it with a frontend to build a full AI web application for text analysis.</p>
+        <p>This roadmap reflects my commitment to mastering modern web technologies and building a strong base in AI. My long-term goal is to become a creative and confident developer capable of building useful, real-world applications and eventually entering the field of Artificial Intelligence.</p>
+    </div>
+
+    <!--FEEDBACK PAGE-->
+
+    <div id="feedback" class="main-section" style="display:none;">
+      <h1>Feedback</h1>
+      <p>Feed back system might be here in future...</p>
+    </div>
+
+    <!--CONTACTS PAGE-->
+
+    <div id="contacts" class="main-section" style="display:none;">
+      <div class="contacts-section">
+          <h1>Contacts</h1>
+          <p>
+            You can text me on 
+            <a href="https://t.me/kl16kl16" class="telegram-link" target="_blank" rel="noopener noreferrer">
+              <img src="img/contact_logo/Telegram_Messenger.png" alt="Telegram" class="icon" />Telegram
+            </a>, 
+            <a href="https://www.instagram.com/yepifanovh/" class="instagram-link" target="_blank" rel="noopener noreferrer">
+              <img src="img/contact_logo/Instagram_icon.png" alt="Instagram" class="icon" />Instagram
+            </a> 
+            and on my 
+            <a href="https://discord.gg/your-link" class="discord-link" target="_blank" rel="noopener noreferrer">
+              <img src="img/contact_logo/dis_logo.png" alt="Discord" class="icon" />Discord
+            </a> server.
+          </p>
+        </div>
+    </div>
+  </main>
+
+    <aside>
+      <div></div>
+    </aside>
+
+    <footer>
+      Copyright © 2025 Lip
+    </footer>
+  </div>
+<script src="js/script.js"></script>
+</body>
+</html>

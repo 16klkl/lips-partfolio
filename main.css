@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+.welcometext {
+    font-size: 25px;
+}
+
+.main-section {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.goals-section {
+  margin-top: 11%;
+}
+
+.contacts-section img {
+    width: 30px;
+    height: auto;
+}
+
+.icon {
+    height: 1em;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+
+.telegram-link,
+.instagram-link,
+.discord-link {
+    color: inherit;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.telegram-link:hover,
+.instagram-link:hover,
+.discord-link:hover {
+  transform: scale(1.03);
+}
+
+  .discord-link {
+    color: #5865F2;
+  }
+
+  .telegram-link {
+    color: #229ED9;
+  }
+
+  .instagram-link {
+    color: #E1306C;
+  }
