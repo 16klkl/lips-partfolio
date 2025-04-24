@@ -159,3 +159,56 @@ footer {
 .imagelip img:hover {
     transform: scale(1.6);
   }
+
+  @media screen and (max-width: 768px) {
+    .main-section {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .shapka {
+      font-size: 1.5em;
+      letter-spacing: 5px;
+    }
+  
+    .shapka_menu ul {
+      flex-direction: column;
+      gap: 10px;
+      padding: 0;
+    }
+  
+    .imagelip {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .imagelip img {
+      width: 80%;
+    }
+  
+    .welcometext {
+      font-size: 18px;
+    }
+  
+    .grid-project-list {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    header {
+      position: relative;
+    }
+  
+    footer {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .contacts-section img {
+      width: 20px;
+    }
+  
+    .clock {
+      font-size: 16px;
+    }
+  }
